@@ -1,10 +1,6 @@
 # CS231n: 'Convolutional Neural Networks for Visual Recognition' course
 
-Assignments for [CS231n: Convolutional Neural Networks for Visual Recognition](cs231n.stanford.edu) Spring 2017.
-
-I have just finished the course online and this repo contains my solutions to the assignments! What a great place for diving into Deep Learning. Big thanks to all the fellas at CS231 Stanford!
-
-[assignments](cs231n.github.io) and [video lectrues for Spring 2017](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)! 
+[assignments](https://cs231n.github.io) and [video lectrues for Spring 2017](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)! 
 
 ### Assignment 1:
 - Q1: k-Nearest Neighbor classifier. (_Todo_)
