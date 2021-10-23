@@ -3,10 +3,10 @@
 [assignments](https://cs231n.github.io) and [video lectrues for Spring 2017](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)! 
 
 ### Assignment 1:
-- Q1: k-Nearest Neighbor classifier. ([_Exercise noteBook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/knn.ipynb),
+- Q1: k-Nearest Neighbor classifier. ([_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/knn.ipynb),
 [_Knn classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/k_nearest_neighbor.py))
 - Q2: Training a Support Vector Machine. (
-[_Exercise noteBook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/svm.ipynb), 
+[_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/svm.ipynb), 
 [_linear svm_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_svm.py), 
 [_linear  classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_classifier.py)_)
 - Q3: Implement a Softmax classifier. (_Todo_)
