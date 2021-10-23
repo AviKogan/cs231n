@@ -50,8 +50,6 @@ class LinearClassifier(object):
         # Run stochastic gradient descent to optimize W
         loss_history = []
         for it in range(num_iters):
-            X_batch = None
-            y_batch = None
 
             #########################################################################
             # TODO:                                                                 #
@@ -65,8 +63,11 @@ class LinearClassifier(object):
             # replacement is faster than sampling without replacement.              #
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+            
+            idx = np.random.choice(dim, batch_size)
 
-            pass
+            X_batch = X[idx]
+            y_batch = y[idx]
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
@@ -81,7 +82,7 @@ class LinearClassifier(object):
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-            pass
+            self.W += -learning_rate * grad
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
@@ -111,7 +112,7 @@ class LinearClassifier(object):
         ###########################################################################
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-        pass
+        y_pred = np.argmax(X.dot(self.W), axis = 1)
 
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return y_pred
