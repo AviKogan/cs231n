@@ -8,21 +8,21 @@
 - Q2: Training a Support Vector Machine. (
 [_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/svm.ipynb), 
 [_linear svm_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_svm.py), 
-[_linear  classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_classifier.py)_)
-- Q3: Implement a Softmax classifier. (_Todo_)
-- Q4: Two-Layer Neural Network. (_Todo_)
-- Q5: Higher Level Representations: Image Features. (_Todo_)
+[_linear  classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_classifier.py))
+- Q3: Implement a Softmax classifier. (_Todo till 28/10_)
+- Q4: Two-Layer Neural Network. (_Todo till 28/10_)
+- Q5: Higher Level Representations: Image Features. (_Todo till 28/10_)
 
 ### Assignment 2:
-- Q1 : Fully-connected Neural Network. (_Todo_)
-- Q2: Batch Normalization. (_Todo_)
-- Q3: Dropout. (_Todo_)
-- Q4: Convolutional Networks. (_Todo_)
-- Q5:PyTorch / TensorFlow on CIFAR-10. (_Todo_)
+- Q1 : Fully-connected Neural Network. (_Todo till 5/11_)
+- Q2: Batch Normalization. (_Todo till 5/11_)
+- Q3: Dropout. (_Todo till 5/11_)
+- Q4: Convolutional Networks. (_Todo till 5/11_)
+- Q5:PyTorch / TensorFlow on CIFAR-10. (_Todo till 5/11_)
 
 ### Assignment 3:
-- Q1: Image Captioning with Vanilla RNNs. (_Todo_)
-- Q2: Image Captioning with LSTMs. (_Todo_)
-- Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images. (_Todo_)
-- Q4: Style Transfer. (_Todo_)
-- Q5: Generative Adversarial Networks. (_Todo_)
+- Q1: Image Captioning with Vanilla RNNs. (_Todo till 12/11_)
+- Q2: Image Captioning with LSTMs. (_Todo till 12/11_)
+- Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images. (_Todo till 12/11_)
+- Q4: Style Transfer. (_Todo till 12/11_)
+- Q5: Generative Adversarial Networks. (_Todo till 12/11_)
