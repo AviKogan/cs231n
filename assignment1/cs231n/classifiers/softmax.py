@@ -104,6 +104,8 @@ def softmax_loss_vectorized(W, X, y, reg):
 
     #now multipling by the innned derivative
     dW = X.T.dot(dW_no_inner)
+    
+    
     dW /= num_train
     dW += 2 * reg * W
 
