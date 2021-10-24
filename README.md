@@ -1,6 +1,6 @@
 # CS231n: 'Convolutional Neural Networks for Visual Recognition' course
 
-[assignments](https://cs231n.github.io) and [video lectrues for Spring 2017](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)! 
+[assignments](https://cs231n.github.io) and [video lectrues for Spring 2017](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk).
 
 ### Assignment 1:
 - Q1: k-Nearest Neighbor classifier. ([_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/knn.ipynb),
