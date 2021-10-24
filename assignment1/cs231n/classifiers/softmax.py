@@ -34,7 +34,31 @@ def softmax_loss_naive(W, X, y, reg):
     #############################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-    pass
+    num_train = X.shape[0]
+    num_classes = W.shape[1]
+
+    for i in range(num_train):
+        f = X[i].dot(W)
+        f -= f.max() # normalization trick
+        exp_f = np.exp(f)
+        f_sum = np.sum(exp_f)
+
+        f_yi = exp_f[y[i]]
+
+        loss += (-1) * np.log(f_yi / f_sum)
+
+        dW[:, y[i]] += (-1) * ((f_sum - f_yi) / f_sum) * X[i]
+
+        for j in range(num_classes):
+            if j == y[i]:
+                continue
+            
+            dW[:, j] += (exp_f[j] / f_sum) * X[i]
+
+    loss /= num_train
+    loss += reg * np.sum(W * W)
+    dW /= num_train
+    dW += 2 * reg * W
 
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
@@ -59,7 +83,30 @@ def softmax_loss_vectorized(W, X, y, reg):
     #############################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-    pass
+    num_train = X.shape[0]
+    num_classes = W.shape[1]
+
+    f = X.dot(W)
+    f -= f.max() # normalization trick
+    exp_f = np.exp(f)
+    exp_f_sums = exp_f.sum(axis = 1)
+
+    exp_f_yi = exp_f[np.arange(num_train), y]
+    
+    #loss
+    loss = exp_f_yi / exp_f_sums
+    loss = (-1) * np.log(loss).sum() / num_train + reg * np.sum(W * W)
+
+    #gradient
+    #first the derivative of CE according to exp^W_j
+    dW_no_inner = np.divide(exp_f, exp_f_sums.reshape(num_train, 1))
+    dW_no_inner[range(num_train), y] = - (exp_f_sums - exp_f_yi) / exp_f_sums
+
+    #now multipling by the innned derivative
+    dW = X.T.dot(dW_no_inner)
+    dW /= num_train
+    dW += 2 * reg * W
+
 
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 

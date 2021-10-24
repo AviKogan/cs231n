@@ -7,9 +7,11 @@
 [_Knn classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/k_nearest_neighbor.py))
 - Q2: Training a Support Vector Machine. (
 [_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/svm.ipynb), 
-[_linear svm_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_svm.py), 
-[_linear  classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_classifier.py))
-- Q3: Implement a Softmax classifier. (_Todo till 28/10_)
+[_linear svm classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_svm.py), 
+[_linear classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/linear_classifier.py))
+- Q3: Implement a Softmax classifier. (
+[_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/softmax.ipynb), 
+[_softmax classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/softmax.py))
 - Q4: Two-Layer Neural Network. (_Todo till 28/10_)
 - Q5: Higher Level Representations: Image Features. (_Todo till 28/10_)
 
