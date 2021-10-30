@@ -12,8 +12,8 @@
 - Q3: Implement a Softmax classifier. (
 [_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/softmax.ipynb), 
 [_softmax classifier_](https://github.com/AviKogan/cs231n/blob/main/assignment1/cs231n/classifiers/softmax.py))
-- Q4: Two-Layer Neural Network. (_Todo till 30/10_)
-- Q5: Higher Level Representations: Image Features. (_Todo till 30/10_)
+- Q4: Two-Layer Neural Network. (_[_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/two_layer_net.ipynb)_)
+- Q5: Higher Level Representations: Image Features. (_[_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/features.ipynb)_)
 
 ### Assignment 2:
 - Q1 : Fully-connected Neural Network. (_Todo till 7/11_)
