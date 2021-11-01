@@ -16,15 +16,15 @@
 - Q5: Higher Level Representations: Image Features. (_[_Exercise notebook_](https://github.com/AviKogan/cs231n/blob/main/assignment1/features.ipynb)_)
 
 ### Assignment 2:
-- Q1 : Fully-connected Neural Network. (_Todo till 7/11_)
-- Q2: Batch Normalization. (_Todo till 7/11_)
+- Q1 : Fully-connected Neural Network. 
+- Q2: Batch Normalization. 
 - Q3: Dropout. (_Todo till 7/11_)
-- Q4: Convolutional Networks. (_Todo till 7/11_)
-- Q5:PyTorch / TensorFlow on CIFAR-10. (_Todo till 7/11_)
+- Q4: Convolutional Networks. 
+- Q5:PyTorch / TensorFlow on CIFAR-10. 
 
 ### Assignment 3:
-- Q1: Image Captioning with Vanilla RNNs. (_Todo till 14/11_)
-- Q2: Image Captioning with LSTMs. (_Todo till 14/11_)
-- Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images. (_Todo till 14/11_)
-- Q4: Style Transfer. (_Todo till 14/11_)
-- Q5: Generative Adversarial Networks. (_Todo till 14/11_)
+- Q1: Image Captioning with Vanilla RNNs.
+- Q2: Image Captioning with LSTMs. 
+- Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images. 
+- Q4: Style Transfer. 
+- Q5: Generative Adversarial Networks. 
